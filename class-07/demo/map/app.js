@@ -35,14 +35,14 @@ let people = [
 ];
 
 
-// let names = people.map((person)=>{
-//   // return person.name1;
-//   if(person.name1 === 'Atallah') {
-//     return person.name1;
-//   }
-//   else {
-//     return 'nothing';
-//   }
+let names = people.map((person)=>{
+  // return person.name1;
+  if(person.name1 === 'Atallah') {
+    return person.name1;
+  }
+  else {
+    return 'nothing';
+  }
 // })
 
 // console.log(names);

@@ -46,6 +46,7 @@ function Location(locData) {
     //     "longitude": "-122.332071"
     //   }
     // console.log(locData);
+
     this.search_query = 'Lynwood';
     this.formatted_query =  locData[0].display_name;
     this.latitude = locData[0].lat;
@@ -56,12 +57,7 @@ function Location(locData) {
 //any route
 //location:3030/ddddddd
 server.get('*',(req,res)=>{
-    // res.status(404).send('wrong route')
-    // {
-    //     status: 500,
-    //     responseText: "Sorry, something went wrong",
-    //     ...
-    //   }
+    
     let errObj = {
         status: 500,
         responseText: "Sorry, something went wrong"

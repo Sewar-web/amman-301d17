@@ -13,7 +13,7 @@ const superagent = require('superagent');
 // Application Setup
 const PORT = process.env.PORT || 3030;
 const app = express();
-app.use(cors());
+app.use(cors());  
 
 
 // Routes
